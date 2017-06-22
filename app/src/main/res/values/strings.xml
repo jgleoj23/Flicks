@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Flicks</string>
+    <string name="api_base_url">https://api.themoviedb.org/3</string>
+    <string name="api_key_param">api_key</string>
+</resources>

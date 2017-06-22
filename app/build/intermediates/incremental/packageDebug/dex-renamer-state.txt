@@ -1,0 +1,7 @@
+#Thu Jun 22 13:55:54 PDT 2017
+base.0=/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a17e605761176fe2cd321e5107e2ede805c7151c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6a9f3e8bfb04de17ec7dc8e4c1ee62ed4cf88396/classes.dex
+base.1=/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6a9f3e8bfb04de17ec7dc8e4c1ee62ed4cf88396
+file.0=/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a17e605761176fe2cd321e5107e2ede805c7151c/classes.dex

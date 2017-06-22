@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:7:5-21:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jgardi/.android/build-cache/8dd1bdd9f102a0aba28d46555c0460126ef24dbb/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jgardi/.android/build-cache/0f79b9c5370ef3c4d7b70e9f988e8e786e0da1c2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jgardi/.android/build-cache/dc4f6a54f4e409ad5154bf3d1dfdf371e1b6e58a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jgardi/.android/build-cache/3ff028c2b9dd965e752bf6d66d128970acdf1c5d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jgardi/.android/build-cache/c33589eda87eddf6fb5c2cb6ee07030654dde880/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jgardi/.android/build-cache/c7a3b563fe228b571716c43d5b52a40b9f98a107/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jgardi/.android/build-cache/f123d5a4da1dd6b66ee174925145d5970f96c870/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jgardi/.android/build-cache/c5a9f18900485d7615e39cc7b7ce45c76bb3c241/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jgardi/.android/build-cache/32d447bf79d19a9f47b38fb5dd46297a9e8ff6ea/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.jgardi.flicks.MovieListActivity
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:14:19-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jgardi/.android/build-cache/8dd1bdd9f102a0aba28d46555c0460126ef24dbb/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jgardi/.android/build-cache/0f79b9c5370ef3c4d7b70e9f988e8e786e0da1c2/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jgardi/.android/build-cache/dc4f6a54f4e409ad5154bf3d1dfdf371e1b6e58a/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jgardi/.android/build-cache/3ff028c2b9dd965e752bf6d66d128970acdf1c5d/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jgardi/.android/build-cache/c33589eda87eddf6fb5c2cb6ee07030654dde880/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jgardi/.android/build-cache/c7a3b563fe228b571716c43d5b52a40b9f98a107/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jgardi/.android/build-cache/f123d5a4da1dd6b66ee174925145d5970f96c870/output/AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/jgardi/.android/build-cache/36b33cf68a0c9e75f4a35ab4cf07fcf8f983073c/output/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/jgardi/.android/build-cache/98c7f5b55730ee2224d62321343018a3869dac16/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jgardi/.android/build-cache/e84dd8b22f808ea0a9cf68fb0194f3d8818a99af/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jgardi/.android/build-cache/c5a9f18900485d7615e39cc7b7ce45c76bb3c241/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jgardi/.android/build-cache/32d447bf79d19a9f47b38fb5dd46297a9e8ff6ea/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jgardi/.android/build-cache/8dd1bdd9f102a0aba28d46555c0460126ef24dbb/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jgardi/.android/build-cache/0f79b9c5370ef3c4d7b70e9f988e8e786e0da1c2/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jgardi/.android/build-cache/dc4f6a54f4e409ad5154bf3d1dfdf371e1b6e58a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jgardi/.android/build-cache/3ff028c2b9dd965e752bf6d66d128970acdf1c5d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jgardi/.android/build-cache/c33589eda87eddf6fb5c2cb6ee07030654dde880/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jgardi/.android/build-cache/c7a3b563fe228b571716c43d5b52a40b9f98a107/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jgardi/.android/build-cache/e84dd8b22f808ea0a9cf68fb0194f3d8818a99af/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jgardi/.android/build-cache/c5a9f18900485d7615e39cc7b7ce45c76bb3c241/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jgardi/.android/build-cache/32d447bf79d19a9f47b38fb5dd46297a9e8ff6ea/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/AndroidManifest.xml:26:9-47
