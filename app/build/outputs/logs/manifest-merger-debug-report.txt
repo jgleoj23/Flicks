@@ -67,6 +67,7 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jgardi/.
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jgardi/.android/build-cache/f123d5a4da1dd6b66ee174925145d5970f96c870/output/AndroidManifest.xml:5:5-7:41
 MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/jgardi/.android/build-cache/36b33cf68a0c9e75f4a35ab4cf07fcf8f983073c/output/AndroidManifest.xml:8:5-10:41
 MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/jgardi/.android/build-cache/98c7f5b55730ee2224d62321343018a3869dac16/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/jgardi/.android/build-cache/320274a6018fa55409db90aa53af4c9f2b2ad343/output/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jgardi/.android/build-cache/e84dd8b22f808ea0a9cf68fb0194f3d8818a99af/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jgardi/.android/build-cache/c5a9f18900485d7615e39cc7b7ce45c76bb3c241/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] /Users/jgardi/.android/build-cache/32d447bf79d19a9f47b38fb5dd46297a9e8ff6ea/output/AndroidManifest.xml:21:5-23:58

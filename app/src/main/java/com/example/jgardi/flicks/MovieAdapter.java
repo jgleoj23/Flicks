@@ -2,6 +2,7 @@ package com.example.jgardi.flicks;
 
 import android.content.Context;
 import android.content.res.Configuration;
+import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +16,8 @@ import com.example.jgardi.flicks.model.Movie;
 
 import java.util.List;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 /**
@@ -37,8 +40,10 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         context = parent.getContext();
         LayoutInflater inflater = LayoutInflater.from(context);
 
-        View moviewView = inflater.inflate(R.layout.item_movie, parent, false);
-        return new ViewHolder(moviewView);
+        View movieView = inflater.inflate(R.layout.item_movie, parent, false);
+        ViewHolder holder = new ViewHolder(movieView);
+        ButterKnife.bind(holder, movieView);
+        return holder;
     }
 
     @Override
@@ -78,18 +83,15 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
-        ImageView ivPosterImage;
-        ImageView ivBackdropImage;
-        TextView tvTitle;
-        TextView tvOverview;
+        @Nullable
+        @BindView(R.id.ivPosterImage) ImageView ivPosterImage;
+        @Nullable
+        @BindView(R.id.ivBackdropImage) ImageView ivBackdropImage;
+        @BindView(R.id.tvTitle) TextView tvTitle;
+        @BindView(R.id.tvOverview) TextView tvOverview;
 
         public ViewHolder(View itemView) {
             super(itemView);
-
-            ivPosterImage = (ImageView) itemView.findViewById(R.id.ivPosterImage);
-            ivBackdropImage = (ImageView) itemView.findViewById(R.id.ivBackdropImage);
-            tvOverview = (TextView) itemView.findViewById(R.id.tvOverview);
-            tvTitle = (TextView) itemView.findViewById(R.id.tvTitle);
         }
     }
 
