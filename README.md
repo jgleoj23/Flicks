@@ -2,7 +2,7 @@
 
 **Name of your app** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **X** hours spent in total
+Time spent: **7.5** hours spent in total
 
 ## User Stories
 
@@ -17,7 +17,6 @@ The following **optional** features are implemented:
   * [ ] Title, Backdrop Image, Overview (Landscape mode)
 * [ ] Display a nice default [placeholder graphic](https://guides.codepath.com/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
 * [ ] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.com/android/Displaying-Images-with-the-Glide-Library#transformations)
-* [ ] Apply the popular [Butterknife annotation library](http://guides.codepath.com/android/Reducing-View-Boilerplate-with-Butterknife) to reduce boilerplate code.
 
 The following **additional** features are implemented:
 
@@ -29,9 +28,6 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/jgleoj23/Flicks/raw/master/recording.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-## Notes
-
-Describe any challenges encountered while building the app.
 
 ## Open-source libraries used
 
