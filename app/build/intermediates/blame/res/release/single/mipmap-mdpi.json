@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/res/merged/release/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/res/merged/release/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]
