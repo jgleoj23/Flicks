@@ -104,12 +104,12 @@
         "source": "/Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/res/drawable/abc_vector_test.xml"
-    },
-    {
         "merged": "/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/res/merged/debug/drawable/flicks_backdrop_placeholder.gif",
         "source": "/Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/res/drawable/flicks_backdrop_placeholder.gif"
+    },
+    {
+        "merged": "/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/res/drawable/abc_vector_test.xml"
     },
     {
         "merged": "/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",

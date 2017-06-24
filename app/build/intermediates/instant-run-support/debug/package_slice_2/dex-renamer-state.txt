@@ -1,4 +1,4 @@
-#Thu Jun 22 14:55:03 PDT 2017
+#Fri Jun 23 16:03:48 PDT 2017
 base.0=/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
 renamed.0=classes.dex
 file.0=/Users/jgardi/AndroidStudioProjects/Flicks/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex

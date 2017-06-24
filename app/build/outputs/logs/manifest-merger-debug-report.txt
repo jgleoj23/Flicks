@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManife
 	android:name
 		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:7:5-21:19
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:7:5-23:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/jgardi/.android/build-cache/8dd1bdd9f102a0aba28d46555c0460126ef24dbb/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/jgardi/.android/build-cache/0f79b9c5370ef3c4d7b70e9f988e8e786e0da1c2/output/AndroidManifest.xml:29:5-20
@@ -55,6 +55,14 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.jgardi.flicks.MovieDetailsActivity
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:21:9-58
+	android:name
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:21:19-55
+activity#com.example.jgardi.flicks.MovieTrailerActivity
+ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:22:9-67
+	android:name
+		ADDED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml:22:19-55
 uses-sdk
 INJECTED from /Users/jgardi/AndroidStudioProjects/Flicks/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jgardi/.android/build-cache/12e83a0c9339d0f42edc5c33b1fdcd29845cc8b5/output/AndroidManifest.xml:21:5-23:78
@@ -68,6 +76,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jgar
 MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/jgardi/.android/build-cache/36b33cf68a0c9e75f4a35ab4cf07fcf8f983073c/output/AndroidManifest.xml:8:5-10:41
 MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/jgardi/.android/build-cache/98c7f5b55730ee2224d62321343018a3869dac16/output/AndroidManifest.xml:8:5-10:41
 MERGED from [com.jakewharton:butterknife:8.4.0] /Users/jgardi/.android/build-cache/320274a6018fa55409db90aa53af4c9f2b2ad343/output/AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/jgardi/.android/build-cache/f1e3637a4bdf8cde6e4fa3dbf94a00a65c73f64b/output/AndroidManifest.xml:19:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jgardi/.android/build-cache/e84dd8b22f808ea0a9cf68fb0194f3d8818a99af/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jgardi/.android/build-cache/c5a9f18900485d7615e39cc7b7ce45c76bb3c241/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] /Users/jgardi/.android/build-cache/32d447bf79d19a9f47b38fb5dd46297a9e8ff6ea/output/AndroidManifest.xml:21:5-23:58

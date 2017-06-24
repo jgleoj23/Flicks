@@ -7,32 +7,20 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.example.jgardi.flicks.model.Config;
-import com.example.jgardi.flicks.model.Movie;
 import com.loopj.android.http.AsyncHttpClient;
-import com.loopj.android.http.JsonHttpResponseHandler;
-import com.loopj.android.http.RequestParams;
 
-import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import cz.msebera.android.httpclient.Header;
+import io.reactivex.functions.Consumer;
 
 public class MovieListActivity extends AppCompatActivity {
 
     private String TAG = getClass().getName();
     private AsyncHttpClient client = new AsyncHttpClient();
-    private List<Movie> movies = new ArrayList<>();
-    private Config config;
 
     @BindView(R.id.rvMovies) RecyclerView rvMovies;
-    private MovieAdapter movieAdapter = new MovieAdapter(movies);
 
 
     @Override
@@ -42,63 +30,35 @@ public class MovieListActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
         rvMovies.setLayoutManager(new LinearLayoutManager(this));
-        rvMovies.setAdapter(movieAdapter);
+        final MovieDbInteractor movieInteractor = new MovieDbInteractor(getApplicationContext());
+        final MovieAdapter adapter = new MovieAdapter(movieInteractor);
+        rvMovies.setAdapter(adapter);
 
-        configure();
-    }
 
 
-    private void configure() {
-        String url = getString(R.string.api_base_url) + "/configuration";
-        RequestParams params = new RequestParams();
-        params.put(getString(R.string.api_key_param), getString(R.string.api_key));
-        Log.i(TAG, "the url is: " + url + "?" + params.toString());
-        client.get(url, params, new JsonHttpResponseHandler() {
+        movieInteractor.getConfigLoaded().doOnError(new Consumer<Throwable>() {
             @Override
-            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                try {
-                    config = new Config(response);
-                    movieAdapter.setConfig(config);
-                    loadNowPlaying();
-                } catch (JSONException e) {
-                    logError("Failed parsing configuration", e, true);
+            public void accept(Throwable throwable) throws Exception {
+                if (throwable instanceof JSONException) {
+                    logError("Failed parsing configuration", throwable, true);
+                } else {
+                    logError("Failed getting configuration", throwable, true);
                 }
             }
+        });
 
+        movieInteractor.getMovieError().subscribe(new Consumer<Throwable>() {
             @Override
-            public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-                logError("Failed getting configuration", throwable, true);
+            public void accept(Throwable throwable) throws Exception {
+                if (throwable instanceof JSONException) {
+                    logError("Failed to parse now playing movies", throwable, true);
+                } else {
+                    logError("Failed to get data from now_playing endpoint", throwable, true);
+                }
             }
         });
     }
 
-
-    private void loadNowPlaying() {
-        String url = getString(R.string.api_base_url) + "/movie/now_playing";
-        RequestParams params = new RequestParams();
-        params.put(getString(R.string.api_key_param), getString(R.string.api_key));
-
-        client.get(url, params, new JsonHttpResponseHandler() {
-
-            @Override
-            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                try {
-                    JSONArray results = response.getJSONArray("results");
-                    for (int i = 0; i < results.length(); i++) {
-                        movies.add(new Movie(results.getJSONObject(i)));
-                        movieAdapter.notifyItemChanged(movies.size() - 1);
-                    }
-                } catch (JSONException e) {
-                    logError("Failed to parse now playing movies", e, true);
-                }
-            }
-
-            @Override
-            public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-                logError("Failed to get data from now_playing endpoint", throwable, true);
-            }
-        });
-    }
 
 
     private void logError(String message, Throwable error, boolean shouldAlertUser) {

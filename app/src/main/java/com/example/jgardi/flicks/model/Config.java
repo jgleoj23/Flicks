@@ -3,15 +3,20 @@ package com.example.jgardi.flicks.model;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
 /**
  * @author Joseph Gardi
  */
+@Parcel
 public class Config {
 
     private String imageBaseUrl;
     private String posterSize;
     private String backdropSize;
+
+
+    public Config() {}
 
     public Config(JSONObject object) throws JSONException {
         JSONObject images = object.getJSONObject("images");

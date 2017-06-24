@@ -28,6 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.jgardi.flicks.MovieDetailsActivity" />
+        <activity android:name="com.example.jgardi.flicks.MovieTrailerActivity" />
 
         <service
             android:name="com.android.tools.fd.runtime.InstantRunService"
